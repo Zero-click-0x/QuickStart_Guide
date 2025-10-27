@@ -17,6 +17,7 @@ git add file1.txt file2.txt OR .                             (. To Add All Files
 git commit -m "Commit Message"                              ("Message Of New Change")
 git remote -v                                                (Check Fetch/Push Path)
 git remote add origin https://github.com/ByteMeNot-glitch/Git-Github_CheatSheet.git
+git remote set-url origin https://github.com/ByteMeNot-glitch/Git-Github_CheatSheet.git
 git push -u origin main (added upstream default so afterwards only use => git push)
 
 =====> Branch,Merge & Conflict Resolve
