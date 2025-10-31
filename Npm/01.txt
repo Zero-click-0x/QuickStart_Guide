@@ -1,0 +1,15 @@
+node -v
+npm create vite@latest
+
+ProjectName => Creates New Folder
+Select Framework => Vanilla
+Varient => TypeScript
+
+cd ProjectName
+npm i
+nom run dev
+npm run build
+
+node => 25.1.0
+npm => 11.6.2
+vite => 8.0.2
