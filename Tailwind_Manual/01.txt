@@ -1,0 +1,15 @@
+============= Tailwind CLI =============
+
+mkdir ProjectName
+cd ProjectName
+npm install tailwindcss @tailwindcss/cli
+
+Create dir. and Paste => mkdir src && cd src && touch input.css
+@import "tailwindcss";
+
+Create and Paste =>  touch index.html
+<link href="./output.css" rel="stylesheet">
+<body class="bg-amber-700">
+
+cd ..
+npx @tailwindcss/cli -i ./src/input.css -o ./build/output.css --watch
