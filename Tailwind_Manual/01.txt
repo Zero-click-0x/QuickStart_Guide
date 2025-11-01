@@ -6,13 +6,14 @@ npm install tailwindcss @tailwindcss/cli
 
 Create dir. and Paste => mkdir src && cd src && touch input.css
 @import "tailwindcss";
+cd ..
 
-Create and Paste =>  touch index.html
+Create dir. and Paste => mkdir public && cd public && touch index.html
 <link href="./output.css" rel="stylesheet">
 <body class="bg-amber-700">
+cd .. 
 
-cd ..
-npx @tailwindcss/cli -i ./src/input.css -o ./build/output.css --watch
+npx @tailwindcss/cli -i ./src/input.css -o ./public/output.css --watch
 
 
 => input.css contains your Tailwind directives and custom CSS and Tailwind compiler read that css class.
