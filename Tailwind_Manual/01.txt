@@ -15,6 +15,13 @@ mkdir public && cd public && touch index.html
 <body class="bg-amber-700"></body>
 cd .. 
 
+package.json Paste =>
+"scripts": {
+    "tailwind": "npx @tailwindcss/cli -i ./src/input.css -o ./public/output.css --watch"
+  },
+
+Trigger => npm run tailwind
+=============== OR =======================
 npx @tailwindcss/cli -i ./src/input.css -o ./public/output.css --watch
 
 
