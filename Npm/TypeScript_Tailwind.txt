@@ -23,7 +23,9 @@ cd ..
 
 index.html => 
 <link href="/src/style.css" rel="stylesheet">
-<body class="bg-amber-700"></body>
+<body class="bg-amber-700">
+  <script type="module" src="/src/main.ts"></script>
+</body>
 
 nom run dev
 npm run build
