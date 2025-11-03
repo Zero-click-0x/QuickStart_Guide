@@ -8,7 +8,7 @@ cd ProjectName
 npm install tailwindcss @tailwindcss/vite   <= Verify By Looking package.json Dependency
 
 Create & Paste Main Dir. => 
-vite.config.ts 
+touch vite.config.ts 
 import { defineConfig } from 'vite'
 import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
@@ -17,8 +17,10 @@ export default defineConfig({
   ],
 })
 
-Paste in src/main.css => 
+Create dir. and Paste => 
+mkdir src && cd src && touch input.css
 @import "tailwindcss";
+cd ..
 
 index.html => 
 <link href="/src/style.css" rel="stylesheet">
