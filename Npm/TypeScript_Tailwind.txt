@@ -9,13 +9,12 @@ npm install tailwindcss @tailwindcss/vite   <= Verify By Looking package.json De
 
 Create & Paste Main Dir. => 
 touch vite.config.ts 
-import { defineConfig } from 'vite'
-import tailwindcss from '@tailwindcss/vite'
+import { defineConfig } from "vite";
+import tailwindcss from "@tailwindcss/vite";
+
 export default defineConfig({
-  plugins: [
-    tailwindcss(),
-  ],
-})
+  plugins: [tailwindcss()],
+});
 
 Create dir. and Paste => 
 mkdir src && cd src && touch input.css
