@@ -16,13 +16,13 @@ export default defineConfig({
   plugins: [tailwindcss()],
 });
 
-Create dir. and Paste => 
-mkdir src && cd src && touch input.css
+ dir. and Paste => 
+cd src && mv style.css input.css
 @import "tailwindcss";
 cd ..
 
 index.html => 
-<link href="/src/style.css" rel="stylesheet">
+<link href="/src/input.css" rel="stylesheet">
 <body class="bg-amber-700">
   <script type="module" src="/src/main.ts"></script>
 </body>
