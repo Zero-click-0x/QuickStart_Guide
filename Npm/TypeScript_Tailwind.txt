@@ -43,3 +43,15 @@ tailwindcss => 4.1.16
 3. Reads input.css directives → @tailwind utilities
 4. Generates into output.css → .bg-blue-500 { background-color: ... }
 5. Browser loads output.css → styles applied
+
+
+WorkFlows =>
+
+1. In vite.config.ts Add base => 
+export default defineConfig({
+  plugins: [tailwindcss()],
+  base: "/Shortly_Url-Shortening-Api(Repo Name) /",  
+});
+
+2. Make sure set Build And Deployment Source to => Github Actions Under Settings Pages
+3. Paste .github folder to Project Root Dir.
