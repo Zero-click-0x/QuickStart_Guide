@@ -50,8 +50,11 @@ WorkFlows =>
 1. In vite.config.ts Add base => 
 export default defineConfig({
   plugins: [tailwindcss()],
-  base: "/Shortly_Url-Shortening-Api(Repo Name) /",  
+  base: "/Repo Name/",  
 });
 
 2. Make sure set Build And Deployment Source to => Github Actions Under Settings Pages
 3. Paste .github folder to Project Root Dir.
+4.In Html File Make Sure :-
+- Paths in head section must start with =>  ./src/input.css
+- Paths in body section must match the folder structure of complete Path and starts with =>  /images/icon-units.svg || /assets/images/icon-units.svg
